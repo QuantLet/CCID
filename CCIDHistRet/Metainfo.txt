@@ -1,15 +1,15 @@
 
-Name of Quantlet : CCID
+Name of Quantlet : CCIDHistRet
 
 Published in :  'Rise of the Machines?
 Intraday High-Frequency Trading Patterns of Cryptocurrencies'
 
-Description : 
+Description : plots HF (5mins) returns of 12 cryptocurenicies
 
-Keywords : 
+Keywords : high-frequency, returns, cryptocurrency
  
-
-See also : 
+See also : CCIDcorr, CCIDHistReturnsDensity, CCIDHistVola, CCIDReturns, CCIDvolaGAM, CCIDvolumeGAM.
+ 
  
 
 Author : Alla Petukhina

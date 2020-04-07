@@ -1,15 +1,15 @@
 
-Name of Quantlet : CCID
+Name of Quantlet : CCIDcandles
 
 Published in :  'Rise of the Machines?
 Intraday High-Frequency Trading Patterns of Cryptocurrencies'
 
-Description : 
+Description : 'Builds 60 mins candles using on 5 minutes price data (Open, High, Low,Close price) of 11 cryptocurrencies and produces plots in pdf format'
 
-Keywords : 
+Keywords : candles, high frequency data, cryptocurrency
  
 
-See also : 
+See also : CCIDcorr, CCIDHistRet, CCIDHistReturnsDensity, CCIDHistVola, CCIDReturns, CCIDvolaGAM, CCIDvolumeGAM.
  
 
 Author : Alla Petukhina
@@ -18,4 +18,4 @@ Submitted :  Wed, July 17 2019 by Alla Petukhina
 
 Datafile : 
 
-Example : 
+Example : etc_HF_60min.pdf, eth_HF_60min.pdf, btc_HF_60min.pdf

@@ -1,15 +1,16 @@
 
-Name of Quantlet : CCID
+Name of Quantlet : CCIDHistVola
 
 Published in :  'Rise of the Machines?
 Intraday High-Frequency Trading Patterns of Cryptocurrencies'
 
-Description : 
+Description : plots itraday volatility (absolute 5min returns) of 12 cryptocurrencies
 
 Keywords : 
  
 
-See also : 
+See also : CCIDcorr, CCIDHistRet, CCIDHistReturnsDensity, CCIDReturns, CCIDvolaGAM, CCIDvolumeGAM, CCIDHistVola.
+ 
  
 
 Author : Alla Petukhina
