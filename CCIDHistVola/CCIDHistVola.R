@@ -25,11 +25,12 @@ result = matrix(1, ncol = 7, nrow = ncol(CC_returns_mat), dimnames = list(coins,
 rownames(result) = coins
 
 
-# 5min returns plots
+# 5min vola (absolute returns) plots
 for (i in 1:length(coins)){
-  pdfname =  paste0("Returns_",gsub(" ", "", coins[i], fixed = TRUE),".pdf")
-  pdf(file = pdfname)
-  plot(zoo(CC_returns_xts[, i]), col = cols[i], ylab = coins[i])
+
+  pdfname5 =  paste0("Vola_",gsub(" ", "", coins[i], fixed = TRUE),".pdf")
+  pdf(file = pdfname5)
+  plot(zoo::zoo(CC_abs_returns_xts[, i]), col = cols[i], ylab = coins[i])
   dev.off()
 }
 dev.off()
