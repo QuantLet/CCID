@@ -1,5 +1,5 @@
 
-Name of Quantlet : CCID
+Name of Quantlet : CCIDvolaGAM
 
 Published in :  'Rise of the Machines? Intraday High-Frequency Trading Patterns of Cryptocurrencies'
 
