@@ -1,8 +1,7 @@
 
 Name of Quantlet : CCIDcandles
 
-Published in :  'Rise of the Machines?
-Intraday High-Frequency Trading Patterns of Cryptocurrencies'
+Published in :  'Rise of the Machines? Intraday High-Frequency Trading Patterns of Cryptocurrencies'
 
 Description : 'Builds 60 mins candles using on 5 minutes price data (Open, High, Low,Close price) of 11 cryptocurrencies and produces plots in pdf format'
 
