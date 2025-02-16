@@ -1,8 +1,7 @@
 
 Name of Quantlet : CCIDHistVola
 
-Published in :  'Rise of the Machines?
-Intraday High-Frequency Trading Patterns of Cryptocurrencies'
+Published in :  'Rise of the Machines? Intraday High-Frequency Trading Patterns of Cryptocurrencies'
 
 Description : plots itraday volatility (absolute 5min returns) of 12 cryptocurrencies
 
