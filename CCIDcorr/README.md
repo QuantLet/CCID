@@ -7,9 +7,9 @@
 ```
 Name of Quantlet: CCIDcorr
 
-Published in: Rise of the Machines?
+Published in: Rise of the Machines? Intraday High-Frequency Trading Patterns of Cryptocurrencies
 
-Description: calculates correlation coefficients for 12 CCs based on intraday price data (5min) for negative and positive moves of the market and stores them to latex table.
+Description: calculates correlation coefficients for 12 CCs based on intraday price data (5min) for negative and positive moves of the market and stores them to latex table.'
 
 Keywords: correlation, cryptocurrency
 
