@@ -8,7 +8,7 @@ graphics.off()
 
 load('CCID.Rdata')
 
-cols = rainbow(length(coins), s = 1, v = 1, start = 0, end = max(1, n - 1)/n, alpha = 1)
+
 
 CC_returns_mat = as.data.frame(CC_returns)
 CC_returns_xts = xts::as.xts(CC_returns_mat, order.by = TIME_DATE[-1])
@@ -23,6 +23,8 @@ n = nrow(CC_returns_mat)
 result = matrix(1, ncol = 7, nrow = ncol(CC_returns_mat), dimnames = list(coins, c("rho(ret):", 
                                                                                    "rho n(ret^2):", "rho(|ret|):", "S:", "K:", "JB:", "JB p-value:")))
 rownames(result) = coins
+
+cols = rainbow(length(coins), s = 1, v = 1, start = 0, end = max(1, n - 1)/n, alpha = 1)
 
 
 # 5min vola (absolute returns) plots
